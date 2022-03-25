@@ -1,0 +1,79 @@
+.article section {
+    margin-bottom: 120px;
+}
+/* section1 */
+.section1 {
+    height: 500px;
+    position: relative;
+}
+.section1 > h1 {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 400;
+}
+.section1 .mango {
+    color: #f2c244;
+}
+/* section2 */
+.section2 > .gridContainer {
+    display: grid;
+    max-width: 1220px;
+    margin: 0 auto;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(600px,1fr));
+}
+.section2 > .gridContainer > img {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+/* section3 */
+.section3 {
+    height: 500px;
+    position: relative;
+}
+.section3 > h1 {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 400;
+}
+.section3 .mango {
+    color: #f2c244;
+}
+/* section4 */
+.section4 {
+
+}
+.section4 > .gridContainer {
+    display: grid;
+    margin: 0 auto;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+.section4 > .gridContainer > div {
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+}
+.section4 img {
+    width: 100%;
+    aspect-ratio: 1;
+}
+.section4 .textBox {
+    border-top: 1px solid black;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+}

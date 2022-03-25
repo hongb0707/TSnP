@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+article {
+  max-width: 1440px;
+  min-height: 100vh;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  padding: 92px 0px;
+}

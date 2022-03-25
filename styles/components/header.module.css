@@ -1,0 +1,50 @@
+.logo {
+    width: 120px;
+    height: 50px;
+}
+.logo:hover {
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    padding: 10px;
+    transform: translateX(-50%);
+    transition: 300ms ease;
+    border-radius: 0 0 10px 10px;
+}
+.header:hover {
+    background-color: rgba(170, 170, 170, 0.5);
+}
+.header > nav > ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+}
+.header > nav > ul > li > a {
+    color: black;
+    transition: color 300ms ease;
+}
+.header > nav > ul > li > a:hover {
+    color: #4888c6;
+}
+.launchButton {
+    border-radius: 10px;
+    border: none;
+    background-color: #4888c6;
+    color: #f7f7f7;
+    width: 83px;
+    height: 30px;
+    margin: auto 0;
+    transition: 300ms ease;
+}
+.launchButton:hover {
+    box-shadow: 2px 2px 7px #aaa;
+    cursor: pointer;
+}
