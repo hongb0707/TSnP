@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "framer-motion": "^6.2.8",
-    "next": "12.1.0",
-    "react": "17.0.2",
+    "next": "^12.1.1-canary.17",
+    "pm2": "^5.2.0",
+    "react": "^17.0.2",
     "react-dom": "17.0.2",
+    "react-router": "^6.2.2",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.1.2"
   },
